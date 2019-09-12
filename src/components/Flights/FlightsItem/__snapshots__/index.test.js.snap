@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlightsItem comoponent snapshot 1`] = `
+<div
+  className="flights-item-wrapper"
+>
+  <div>
+    <div
+      className="flights-item-wrapper__route"
+    >
+      <p>
+        Destination: 
+      </p>
+      <p
+        className="arrow-wrapper"
+      >
+        <i
+          className="arrow up"
+        />
+      </p>
+      <p />
+    </div>
+    <p>
+      Departure:
+    </p>
+  </div>
+  <div>
+    <p>
+      Flight number: 
+    </p>
+    <p>
+      Boarding time:
+    </p>
+  </div>
+  <div>
+    <p>
+      Gate: 
+    </p>
+    <p>
+      Seat: 
+    </p>
+  </div>
+</div>
+`;

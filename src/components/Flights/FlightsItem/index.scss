@@ -1,0 +1,30 @@
+.flights-item-wrapper {
+  max-width: 768px;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  display: flex;
+
+  > div:not(:first-child) {
+    border-left: 2px solid #000000;
+    padding: 0 10px;
+  }
+
+  > div:first-child {
+    padding-right: 10px;
+  }
+
+  > div:not(:last-child) {
+    width: 40%;
+  }
+
+  &__route {
+    display: flex;
+    align-items: center;
+
+    .arrow-wrapper {
+      padding: 0 8px 0 5px;
+    }
+  }
+}

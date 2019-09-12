@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlightsWrapper comoponent snapshot 1`] = `
+<div
+  className="flights-wrapper"
+>
+  <div
+    className="flights-wrapper__sort"
+  >
+    <div
+      className="flights-wrapper__sort__item"
+    >
+      <div
+        className="flights-wrapper__sort__item__arrows"
+      >
+        <p>
+          <i
+            className="arrow down"
+            onClick={[Function]}
+          />
+        </p>
+        <p>
+          <i
+            className="arrow up"
+            onClick={[Function]}
+          />
+        </p>
+      </div>
+      <p>
+        Name
+      </p>
+    </div>
+    <div
+      className="flights-wrapper__sort__item"
+    >
+      <div
+        className="flights-wrapper__sort__item__arrows"
+      >
+        <p>
+          <i
+            className="arrow down"
+            onClick={[Function]}
+          />
+        </p>
+        <p>
+          <i
+            className="arrow up"
+            onClick={[Function]}
+          />
+        </p>
+      </div>
+      <p>
+        Time
+      </p>
+    </div>
+  </div>
+</div>
+`;

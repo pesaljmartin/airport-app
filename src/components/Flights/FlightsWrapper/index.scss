@@ -1,0 +1,41 @@
+.flights-wrapper {
+  &__sort {
+    display: flex;
+
+    &__item {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+
+      &__arrows {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-right: 5px;
+
+        i {
+          cursor: pointer;
+
+          &.down {
+            transform: rotate(45deg);
+          }
+
+          &.up {
+            transform: rotate(-135deg);
+          }
+        }
+      }
+    }
+  }
+
+  p {
+    margin: 0 0 5px 0;
+  }
+
+  i {
+    display: inline-block;
+    padding: 3px;
+    border: solid #000000;
+    border-width: 0 3px 3px 0;
+    transform: rotate(-45deg);
+  }
+}
