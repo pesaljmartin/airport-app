@@ -44,13 +44,7 @@ const Flights = () => {
     setFlights([...flights]);
   };
 
-  return (
-    <FlightsWrapper
-      flights={flights}
-      sortByName={sortByName}
-      sortByTime={sortByTime}
-    />
-  );
+  return <FlightsWrapper {...{ flights, sortByName, sortByTime }} />;
 };
 
 export default Flights;

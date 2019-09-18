@@ -1,5 +1,4 @@
 import React from "react";
-import moment from "moment";
 
 import "./index.scss";
 
@@ -15,16 +14,12 @@ const FlightsItem = props => {
           </p>
           <p>{destination && destination.value}</p>
         </div>
-        <p>
-          Departure:
-          {departure && moment(departure).format("DD MMM YYYY hh:mm a")}
-        </p>
+        <p>Departure: {departure && new Date(departure).toLocaleString()}</p>
       </div>
       <div>
         <p>Flight number: {detail && detail.flight_number}</p>
         <p>
-          Boarding time:
-          {detail && moment(detail.boarding).format("DD MMM YYYY hh:mm a")}
+          Boarding time: {detail && new Date(detail.boarding).toLocaleString()}
         </p>
       </div>
       <div>
